@@ -135,5 +135,8 @@ Will be rendered as this Diagram :
 ### Test locally
 The GitHub Pages site is set to be built from the main branch. As it can take some time to be published after a commit (up to 10 minutes), it is convenient to test locally first.
 <pre>
-git clone https://github.com/avenirs-esr/dev-doc
+git clone git@github.com:/avenirs-esr/dev-doc https://github.com/avenirs-esr/dev-doc
+cd dev-doc
+bundle install
+bundle exec jekyll serve --livereload
 </pre>
