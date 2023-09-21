@@ -9,4 +9,4 @@ esup_logo_alt: ESUP Portail Logo
 esup_url: https://www.esup-portail.org/
 rss_logo: assets/images/rss.svg
 rss_logo_alt: Subscribe to rss feed
-rss_url: feed.xml
+rss_url: /dev-doc/feed.xml
