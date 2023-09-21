@@ -1,0 +1,26 @@
+.page {
+  .page-header {
+    display: flex;
+    margin-bottom: 1em;
+    align-items: baseline;
+  }
+
+  .page-title {
+    font-size: 2em;
+  
+    color: $blue-esup;
+    margin-right: .5em;
+  }
+  .rss-subscribe-container {
+    margin-left: 2em;
+  }
+  @media screen and (max-width: 800px) {
+    .page-title {
+      font-size: 1em;
+    }
+  }
+
+  .page-content {
+    padding-left: 2em;
+  }
+}

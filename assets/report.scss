@@ -1,0 +1,25 @@
+@import "report-section";
+
+.post {
+    .post-header {
+        .post-title {
+            color: $blue-esup;
+        }
+        .post-meta {
+            color: $grey-d;
+            font-size: smaller;
+        }
+    }
+    .post-content {
+        .main-content {
+            margin-top: 1em;
+        }
+
+        .main_actions {
+            margin-top: 0.5em;
+            ol {
+                padding-left: 2em;
+            }
+        }
+    }
+}

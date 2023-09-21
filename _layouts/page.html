@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+
+
+<article class="page">
+
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+    {%- if page.rss  %}
+   
+      {%  include img.html  
+        src=site.data.constants.rss_logo 
+        alt=site.data.constants.rss_logo_alt  
+        url=site.data.constants.rss_url
+    %}
+      <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+    {%- endif -%}
+  </header>
+
+  <div class="page-content">
+    {{ content }}
+  </div>
+
+</article>

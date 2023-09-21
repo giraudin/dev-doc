@@ -1,0 +1,33 @@
+<footer class="site-footer">
+
+  <div class="main-container">
+
+    <div class="col left row-direction">
+     
+      {%  include img.html  
+        src=site.data.constants.avenir_logo_small 
+        alt=site.data.constants.avenir_logo_alt  
+        url=site.data.constants.avenir_url
+      %}
+
+      {%  include img.html  
+        src=site.data.constants.esup_logo_small 
+        alt=site.data.constants.esup_logo_alt  
+        url=site.data.constants.esup_url
+      %}
+       
+    </div>
+
+    <div class="col center ">
+      {%- include social.html -%}
+    </div>
+
+    <div class="col right">
+      {%- if site.description != 'disabled' -%}
+      <p>{{ site.description | escape }}</p> 
+      {%- endif -%}
+    </div>
+  </div>
+
+
+</footer>

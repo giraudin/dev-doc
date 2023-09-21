@@ -1,0 +1,22 @@
+<header class="site-header" role="banner">
+  <div class="main-container">
+
+    <!-- <div class="wrapper"> -->
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    
+    {%  include img.html  
+        src=site.data.constants.avenir_logo_medium 
+        alt=site.data.constants.avenir_logo_alt  
+        url=site.data.constants.avenir_url
+    %}
+   
+
+    <div class="titles-container">
+      <div class="site-main-title">{{ site.title | escape }}</div>
+      <div class="site-sub-title">{{ site.data.constants.subtitle | escape }}</div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+</header>

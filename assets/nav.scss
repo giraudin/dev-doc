@@ -1,0 +1,142 @@
+
+.site-nav {
+    display: flex;
+    margin: 0 1em;
+   
+
+    .left,
+    .center,
+    .right {
+        display: flex;
+    }
+
+    .center {
+        flex-grow: 2;
+        
+    }
+    .right {
+        &.trigger {
+        .nav-item {
+            margin-right:  0em;
+            margin-left:  1em;
+        }
+        }
+    }
+
+
+
+    .trigger {
+        display: flex;
+
+        .nav-item {
+            
+                //margin-right: 1em;
+                margin-right:  1em;
+                &.active {
+                    a {
+                    border-bottom: 2px solid $yellow_avenir;
+                    cursor: default;
+                    }
+                }
+                &:not(.active) {
+                   
+                    &:hover {
+                        background-color: $grey-ll;
+                        a {
+                        color: black;
+                        }
+                   
+                    }
+                }
+
+            a {
+
+                text-decoration: none;
+               
+            }
+
+        }
+        &.right {
+            .nav-item {
+            
+                margin-right: unset;
+            }
+        }
+
+    }
+
+}
+
+.site-nav .nav-trigger {
+    display: none;
+}
+
+.site-nav .menu-icon {
+    display: none;
+}
+
+.site-nav .page-link {
+    color: $grey-d;
+    line-height: 1.5;
+}
+
+.site-nav .page-link:not(:last-child) {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav {
+
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        background-color: #fdfdfd;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: right;
+
+    }
+
+    .site-nav label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .site-nav .menu-icon>svg {
+        fill: #424242;
+    }
+
+    .site-nav input~.trigger {
+        clear: both;
+        display: none;
+    }
+
+    .site-nav input:checked~.trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px;
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 0;
+    }
+}

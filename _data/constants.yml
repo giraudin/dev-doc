@@ -1,0 +1,12 @@
+favicon: /assets/images/favicon.ico
+subtitle: Developer Documentation
+avenir_logo_medium: assets/images/avenir-logo_medium.png
+avenir_logo_small: assets/images/avenir-logo_small.png
+avenir_logo_alt: Avenir(s) Logo
+avenir_url: https://www.gouvernement.fr/programme-avenirs-un-projet-majeur-pour-faire-evoluer-l-accompagnement-a-l-orientation-des-jeunes-et
+esup_logo_small: assets/images/esup-portail-logo_small.svg
+esup_logo_alt: ESUP Portail Logo
+esup_url: https://www.esup-portail.org/
+rss_logo: assets/images/rss.svg
+rss_logo_alt: Subscribe to rss feed
+rss_url: feed.xml

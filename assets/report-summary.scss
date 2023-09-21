@@ -1,0 +1,29 @@
+.report-summary {
+    display: flex;
+    .bullet {
+        margin-right: 0.5em;
+        color: black;
+    }
+    .report-date {
+        margin-right: 1em;
+        font-weight: bold;
+        color: black;
+        width: 8em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .report-link {
+        font-weight: bold;
+        margin-right: 1em;
+        width: 15em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .report-excerpt {
+        color: $grey-m;
+    }
+}

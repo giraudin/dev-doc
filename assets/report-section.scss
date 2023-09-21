@@ -1,0 +1,13 @@
+
+.report-section {
+    margin-top: 1em;
+    .body {
+        margin-left: 2em;
+        .actions {
+            margin-top: .5em;
+            ol {
+                padding-left: 2em;
+            }
+        }
+    }
+}

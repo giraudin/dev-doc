@@ -1,0 +1,50 @@
+
+@import "colors.scss";
+
+
+
+.site-header {
+    // border-top: 5px solid #424242;
+    // border-bottom: 1px solid #e8e8e8;
+    // min-height: 55.95px;
+    // position: relative;
+    padding: 0.5em 1em;
+    display: flex;
+
+    .main-container {
+
+        display: flex;
+        flex-grow: 1;
+        border-bottom: 1px solid #0a71b4;
+
+        .titles-container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            margin-right: 150px;
+           
+
+            .site-main-title {
+                font-size: 3em;
+                font-weight: bold;
+                color: $blue-esup;
+                display: flex;
+                flex-grow: 1;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .site-sub-title {
+                font-size: 1.5em;
+                display: flex;
+                flex-grow: 1;
+                justify-content: center;
+                align-items: center;
+                color: $grey-d;
+            }
+        }
+
+
+    }
+}
+

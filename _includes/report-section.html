@@ -1,0 +1,32 @@
+<div class="report-section">
+  <!-- {{ include.section}} -->
+  {% if include.section.title %}
+  <div class="header">
+
+    <div class="title">
+      <h3>{{include.section.title}}</h3>
+    </div>
+  </div>
+  <div class="body">
+    <div class="content">
+      {{include.section.content}}
+    </div>
+    <div class="actions">
+      {% if include.section.actions_to_take.size > 0 %}
+      {% if include.section.actions_to_take.size > 1 %}
+      <strong>Actions</strong>
+      <ol>
+        {% for action in include.section.actions_to_take %}
+        <li> {{action}}</li>
+        {% endfor %}
+      </ol>
+      {% else %}
+      <strong>Action: </strong> 
+        {{ include.section.actions_to_take | first }}
+      {% endif %}
+      {% endif %}
+    </div>
+  </div>
+
+  {% endif %}
+</div>

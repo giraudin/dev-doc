@@ -1,0 +1,16 @@
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<a class="report-summary"  href="{{ include.report.url | relative_url }}">
+  <div class="bullet">&bull;</div>
+  <div class="report-date">{{ include.report.date | date: include.date_format }}</div>
+  <div class="report-link">
+   
+      {{ include.report.title | escape }}
+   
+  </div>
+
+  {%- if site.show_excerpts -%}
+  <div class="report-excerpt">
+    {{ include.report.excerpt }}
+  </div>
+  {%- endif -%}
+</a>
