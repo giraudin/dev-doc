@@ -20,7 +20,13 @@
     }
   }
 
-  .page-content {
-    padding-left: 2em;
-  }
+  
+}
+.page-content {
+  padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+
 }

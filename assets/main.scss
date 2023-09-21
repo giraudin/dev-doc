@@ -50,11 +50,7 @@ html {
             padding: 0.5em 0 0 2em;
         }
 
-        .page-content {
-            display: flex;
-            flex-direction: column;
-            flex: 1;
-        }
+        
         .svg-icon {
             width: 16px;
             height: 16px;
@@ -89,15 +85,20 @@ html {
             color: $blue-esup-d;
             text-decoration: none;
         }
-        //.social-media-list a:hover { text-decoration: none; }
-        //.social-media-list a:hover .username { text-decoration: underline; }
-
-        // /** Clearfix */
-        // .wrapper:after,
-        // .footer-col-wrapper:after {
-        //     content: "";
-        //     display: table;
-        //     clear: both;
-        // }
+        blockquote {
+            display: flex;
+            flex: 1;
+            flex-shrink: 1;
+            flex-direction: column;
+            font-family: 'Times New Roman', Times, serif;
+            padding: .5em;
+            color: $grey-d;
+            border: 1px solid $grey-l;
+            p {
+                &:last-child {
+                    margin-bottom: unset;
+                }
+            }
+        }
     }
 }
