@@ -14,7 +14,7 @@ The aim of this site is to bring together and share all the information relating
 - Meeting reports.
 - Frameworks, libraries, tools and good practices.
 - Third party integration: sytems, norms and communication protocols.
-- Technical information relating to the construction of this site can be found in the [about section.]({{'about' | relative_url}})
+- Technical information relating to the construction of this site can be found in the [help section.]({{'help' | relative_url}})
 
 <br/>
 <br/>
