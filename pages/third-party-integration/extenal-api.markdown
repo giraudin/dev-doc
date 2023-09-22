@@ -78,12 +78,7 @@ page_content_classes: table-container
 </ul></td>
 <td></td>
 <td></td>
-<td><ul>
-<li><a href="https://numerique.banq.qc.ca/patrimoine/details/52327/2222057" target="_blank">Presentation (Powerpoint)</a></li>
-<li><a href="https://monde.ccdmd.qc.ca/ressource/?id=65477" target="_blank">Presentation (Video)</a></li>
-<li><a href="https://cetis.org.uk/leap2/a/specification" target="_blank">Specification (Last version?)</a></li>
-
-</ul></td>
+<td></td>
 <td></td>
 </tr>
 
@@ -100,10 +95,11 @@ page_content_classes: table-container
 <tr>
 <td>Pôle emploi</td>
 <td>API (Pôle emploi Connect)</td>
-<td></td>
+<td>ROME (referential)</td>
 <td></td>
 <td><ul>
-<li><a href="https://pole-emploi.io/data/api/pole-emploi-connect" target="_blank">Pôle emploi Connect</a></li>
+<li><a href="https://pole-emploi.io/data/api/pole-emploi-connect" target="_blank">Pôle emploi Connect (All available APIs)</a></li>
+<li><a href="https://pole-emploi.io/data/api/rome-4-0-fiches-metiers" target="_blank">ROME API</a></li>
 </ul></td>
 <td></td>
 </tr>
