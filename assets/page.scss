@@ -27,5 +27,23 @@
   flex: 1;
   align-items: flex-start;
   overflow: auto;
+  &.table-container {
+    table, th, tr, td{
+      border: 1px solid $grey-l;
+      border-collapse: collapse;
+    } 
+
+    th {
+      color: $blue-esup;
+      padding:  1em;
+    }
+    tr {
+      color: $grey-d;
+      td {
+        padding: .5em 1em;
+      }
+    }
+    
+  }
 
 }

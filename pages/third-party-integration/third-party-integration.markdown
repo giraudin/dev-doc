@@ -7,5 +7,5 @@ position: left
 order: 40
 ---
 
-- [Potential external systems & API](../integration-extern-api){:target="_blank"}
-- [Potential protocols & norms](../integration-protocols ){:target="_blank"}
+- [External systems & API](../integration-extern-api)
+- [Protocols & norms](../integration-protocols )
