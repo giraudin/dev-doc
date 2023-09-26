@@ -4,6 +4,10 @@ avenir_logo_medium: assets/images/avenir-logo_medium.png
 avenir_logo_small: assets/images/avenir-logo_small.png
 avenir_logo_alt: Avenir(s) Logo
 avenir_url: https://www.gouvernement.fr/programme-avenirs-un-projet-majeur-pour-faire-evoluer-l-accompagnement-a-l-orientation-des-jeunes-et
+avenir_esr_logo_medium: assets/images/avenir-esr-logo_medium.jpg
+avenir_esr_logo_small: assets/images/avenir-esr-logo_small.jpg
+avenir_esr_logo_alt: Avenir(s) ESR Logo
+avenir_esr_url: https://avenirs-esr.fr/
 esup_logo_small: assets/images/esup-portail-logo_small.svg
 esup_logo_alt: ESUP Portail Logo
 esup_url: https://www.esup-portail.org/

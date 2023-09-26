@@ -1,6 +1,6 @@
 
 {% if include.src %}
-{% assign alt = include.alt2 | default: include.src %}
+{% assign alt = include.alt | default: include.src %}
 {% if include.url %}
 <a href="{{include.url}}" aria-label="Link to the site associated to the image/logo" target="_blank">
 {% endif %}
