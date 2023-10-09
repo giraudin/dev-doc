@@ -136,6 +136,10 @@ page_content_classes: table-container
             <td><a href="https://aws.amazon.com/fr/api-gateway/" target="_blank">Amazon API Gateway</a></td>
             <td>SASS Only</td>
         </tr>
+          <tr>
+            <td><a href="https://aws.amazon.com/fr/api-gateway/" target="_blank">IBM API Connect </a></td>
+            <td> <a href="https://www.ibm.com/products/api-connect/pricing">Pricing</a></td>
+        </tr>
         <tr>
             <td><a href="https://tyk.io/" target="_blank">Tyk</a></td>
             <td><a href="https://tyk.io/pricing-self-managed/">The pricing policy does not seem to be adapted (to be confirmed)</a></td>
@@ -146,6 +150,10 @@ page_content_classes: table-container
         </tr>
         <tr>
             <td><a href="https://www.mulesoft.com/platform/api-management" target="_blank">Mulesoft</a></td>
+            <td>SASS Only</td>
+        </tr>
+        <tr>
+            <td><a href="https://traefik.io" target="_blank">Traefik</a></td>
             <td>SASS Only</td>
         </tr>
        
@@ -160,6 +168,15 @@ page_content_classes: table-container
         <tr>
             <td><a href="https://www.fusio-project.org/download" target="_blank">Fusio</a></td>
             <td><a href="https://github.com/apioo/fusio" target="_blank">Too low community ? (3 contributors only)</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.fusio-project.org/download" target="_blank">Boomi</a></td>
+            <td><a href="https://boomi.com/fr/platform-services-and-pricing/" target="_blank">Subscription-based pricing is based on the number of API calls</a></td>
+        </tr>
+         <tr>
+            <td><a href="api-umbrella" target="_blank">Boomi</a></td>
+            <td><a href="https://api-umbrella.readthedocs.io/en/latest/api-consumer/api-key-usage.html" target="_blank">Only API Key (not OAuth/OIDC)</a></td>
+            <td><a href="https://github.com/NREL/api-umbrella/issues/202" target="_blank">See this issue too</a></td>
         </tr>
     </tbody>
 </table>
