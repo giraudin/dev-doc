@@ -157,6 +157,10 @@ page_content_classes: table-container
             <td><a href="https://apidog.com" target="_blank"> Apidog</a></td>
             <td><a href="https://apidog.com/pricing/" target="_blank">Pricing policy</a></td>
         </tr>
+        <tr>
+            <td><a href="https://www.fusio-project.org/download" target="_blank">Fusio</a></td>
+            <td><a href="https://github.com/apioo/fusio" target="_blank">Too low community ? (3 contributors only)</a></td>
+        </tr>
     </tbody>
 </table>
 
