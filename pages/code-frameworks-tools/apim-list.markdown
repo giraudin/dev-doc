@@ -34,8 +34,8 @@ page_content_classes: table-container
                 <li>Graphical designers for API and Policies</li>
                 <li>API lifecycle</li>
                 <li>Securization, OIDC Integration</li>
-                <li>Policies: request transformation, rate lilmits, etc.</li>
-                <li>Load balencer, failbabck healt check</li>
+                <li>Policies: request transformation, rate limits, etc.</li>
+                <li>Load balencer, failback health check</li>
                 <li>Dashboards, logs, alerts</li>
             </ul>
             </td>
