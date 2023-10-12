@@ -15,6 +15,8 @@ page_content_classes: table-container
         <th>Main features</th> 
         <th>Protocol mediation</th> 
         <th>Asychronous </th>
+        <th>Technos</th>
+        <th>Pros&nbsp;&amp;&nbsp;cons</th>
         <th>Resources</th>
     </thead>
 
@@ -29,31 +31,47 @@ page_content_classes: table-container
                 <a href="https://documentation.gravitee.io/platform-overview/gravitee-essentials/gravitee-offerings-ce-vs-ee)" target="_blank">Limited community Edition</a>
             </td>
             <td>
-            <ul>
-                <li>Scalability</li>
-                <li>Graphical designers for API and Policies</li>
-                <li>API lifecycle</li>
-                <li>Securization, OIDC Integration</li>
-                <li>Policies: request transformation, rate limits, etc.</li>
-                <li>Load balencer, failback health check</li>
-                <li>Dashboards, logs, alerts</li>
-            </ul>
+                <ul>
+                    <li>Scalability</li>
+                    <li>Graphical designers for API and Policies</li>
+                    <li>API lifecycle</li>
+                    <li>Securization, OIDC Integration</li>
+                    <li>Policies: request transformation, rate limits, etc.</li>
+                    <li>Load balencer, failback health check</li>
+                    <li>Dashboards, logs, alerts</li>
+                </ul>
             </td>
             <td>
             <ul>
             <li>REST</li>
             <li>SOAP</li>
             <li>WebSocket</li>
-            <li>brockers</li>
+            <li>Brockers</li>
             <li>GraphQL</li>
             </ul>
             </td>
-
-            <td>
+             <td>
             <a href="https://www.gravitee.io/api-management-buyers-guide-event-native?_gl=1*605tnq*_up*MQ..&gclid=CjwKCAjwyY6pBhA9EiwAMzmfwQgPnBe3CrQurKvgBmeFASOJcg0U_0cOXzgat1EWxwUmzActDzXoZhoCtEMQAvD_BwE" target="_blank">YES</a>
             </td>
-        
-        
+            <td>
+                Java
+            </td>
+            <td>
+                Pros:
+                <ul>
+                <li>French product</li>
+                <li>Developped in Java</li>
+                <li>Open source</li>
+                <li>Good UI</li>
+                <li>Monitoring (first impression)</li>
+                </ul>
+                Cons:
+                <ul>
+                <li>CE too limided, Expensive Licence</li>
+                </ul>
+            </td>
+           
+         
 
             <td>
             <ul>
@@ -66,9 +84,30 @@ page_content_classes: table-container
 
         <tr>
             <td><a href="https://apisix.apache.org/downloads/" target="_blank">Apache APISIX</a></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>APIM, Gateway <a href="https://apisix.apache.org/docs/apisix/3.1/tutorials/manage-api-consumers/#apache-apisix-consumer-example" target="_blank">(no&nbsp;developer's&nbsp;portal?)</a></td>
+            <td> Apache Software Foundation(ASF)'s open source project</td>
+            <td>
+                -<ul>
+                    <li>Scalability</li>
+                    <li>UI or interract directly with APISIX API</li>
+                   
+                    <li>Securization, OIDC Integration, a lot of plugins</li>
+                    <li>Request transformation, rate limits, etc.</li>
+                    <li>Load balencer, failback health check</li>
+                    <li>Dashboards <a href="https://grafana.com/oss/grafana/" target="_blank">(It uses Grafana)</a>, logs</li>
+                </ul>
+            </td>
+            <td>   
+                <ul>
+                    <li>REST</li>
+                    <li>SOAP</li>
+                    <li>WebSocket</li>
+                    <li>Brockers</li>
+                    <li><a href="https://apisix.apache.org/blog/2022/03/02/apisix-integration-graphql/">GraphQL</a></li>
+                    <li><a href="https://docs.api7.ai/apisix/key-concepts/stream-routes">Stream</a></li>
+                </ul>
+            </td>
+            <td><a href="https://apisix.apache.org/blog/2022/11/07/webhook-api-gateway-event-driven-apis/" target="_blank">YES</a></td>
             <td></td>
             <td></td>
             <td>
@@ -85,9 +124,13 @@ page_content_classes: table-container
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td><a href="https://www.apiman.io/" taget="_blank">APIMAN</a></td>
+            <td></td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -101,9 +144,13 @@ page_content_classes: table-container
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td><a href="https://docs.solo.io/gloo-edge/latest/" target="_blank">GlooEdge</a></td>
+            <td></td>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -174,7 +221,7 @@ page_content_classes: table-container
             <td><a href="https://boomi.com/fr/platform-services-and-pricing/" target="_blank">Subscription-based pricing is based on the number of API calls</a></td>
         </tr>
          <tr>
-            <td><a href="api-umbrella" target="_blank">Boomi</a></td>
+            <td><a href="https://api-umbrella.readthedocs.io/en/latest/index.html" target="_blank">Api Umbrella</a></td>
             <td><a href="https://api-umbrella.readthedocs.io/en/latest/api-consumer/api-key-usage.html" target="_blank">Only API Key (not OAuth/OIDC)</a></td>
             <td><a href="https://github.com/NREL/api-umbrella/issues/202" target="_blank">See this issue too</a></td>
         </tr>
