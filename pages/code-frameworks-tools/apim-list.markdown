@@ -57,17 +57,19 @@ page_content_classes: table-container
                 Java
             </td>
             <td>
-                Pros:
+                <strong class="blue-text">Pros:</strong>
                 <ul>
                 <li>French product</li>
-                <li>Developped in Java</li>
+                <li>Developed in Java</li>
                 <li>Open source</li>
                 <li>Good UI</li>
                 <li>Monitoring (first impression)</li>
                 </ul>
-                Cons:
+                <strong class="blue-text">Cons:</strong>
                 <ul>
-                <li>CE too limided, Expensive Licence</li>
+                <li>CE too limided for production</li> 
+                <li>Expensive Licence for the EE</li>
+               
                 </ul>
             </td>
            
@@ -108,8 +110,22 @@ page_content_classes: table-container
                 </ul>
             </td>
             <td><a href="https://apisix.apache.org/blog/2022/11/07/webhook-api-gateway-event-driven-apis/" target="_blank">YES</a></td>
-            <td></td>
-            <td></td>
+            <td><a href="https://apisix.apache.org/blog/2021/08/25/why-apache-apisix-chose-nginx-and-lua/" target="_blank">NGinx & LUA</a></td>
+            <td>
+             <strong class="blue-text">Pros:</strong>
+                <ul>
+                <li><strong>Apache&nbsp;Software&nbsp;Foundation:</strong><br/>full open source, minmal risk of licence change.</li>
+                <li>Good UI ffor the APIM</li>
+                <li>Independent dashboard and visualisation tool: <a href="https://grafana.com/oss/grafana/" target="_blank">grafana</a></li>
+                <li>Based on Nginx</li>
+                <li>Good documentation</li>
+                </ul>
+                <strong class="blue-text">Cons:</strong>
+                <ul>
+                <li>Based on LUA</li>
+                <li>No developer's portal (not really a problem in our context?)</li>
+                </ul>
+            </td>
             <td>
                 <ul>
                     <li><a href="https://apisix.apache.org/" target="_blank">Apache&nbsp;APISIX&nbsp;Project</a></li>
