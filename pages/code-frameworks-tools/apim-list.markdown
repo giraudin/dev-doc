@@ -208,12 +208,13 @@ page_content_classes: table-container
                     <li>GraphQL</li>
                     
                 </ul></td>
-            <td>Yes but only <a href="s://www.apiman.io/features.html" taget="_blank">partial support for Websockets</a></td>
+            <td>Yes but only <a href="https://www.apiman.io/features.html" taget="_blank">partial support for Websockets</a></td>
             <td>Java & Typescript</td>
             <td></td>
             <td>
                 <ul>
-                    <li><a href="https://www.krakend.io/" target="_blank">/www.krakend.io</a></li>
+                    <li><a href="https://www.apiman.io/" target="_blank">www.apiman.io</a></li>
+                    <li><a href="https://www.apiman.io/download.html" target="_blank">Quickstart</a></li>
                     <li><a href="https://github.com/apiman/apiman" target="_blank">GitHub repository</a></li>
                 </ul>
               
@@ -229,12 +230,13 @@ page_content_classes: table-container
             <td></td>
             <td><strong class="blue-text">Cons:</strong>
                 <ul> 
-            <li>Too limited CE (missing basic auth for instance)</li>
+            <li>Too limited CE (missing basic auth & API keys for instance)</li>
             <li>Pricing unknown need to contact them</li>
             </ul></td>
             <td>
                 <ul>
                     <li><a href="https://www.krakend.io/" target="_blank">www.krakend.io</a></li>
+                    <li><a href="https://github.com/krakend/playground-community" target="_blank">KrakenD Playground</a></li>
                     <li><a href="https://github.com/krakend/krakend-ce" target="_blank">GitHub repository</a></li>
                 </ul>
             </td>
@@ -252,6 +254,7 @@ page_content_classes: table-container
             <td>
              <ul>
                     <li><a href="https://www.solo.io/products/gloo-gateway/" target="_blank">solo.io</a></li>
+                    <li><a href="https://apim.docs.wso2.com/en/latest/get-started/api-manager-quick-start-guide/" target="_blank">Quick start</a></li>
                     <li><a href=" https://github.com/solo-io/gloo" target="_blank">GitHub repository</a></li>
                 </ul>
             
