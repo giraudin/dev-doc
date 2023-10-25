@@ -31,5 +31,5 @@ The above command will install the gateway (with the manager)  and a Postgres da
 - OIDC: The plugin [OIDC](https://docs.konghq.com/hub/kong-inc/openid-connect/){:target="_blank"} is only available for th Enterprise Licence.
 
 ## On-premise installation
-- The Enterprise licence is required to go on production, [a lot of functionnalities](https://docs.konghq.com/gateway/latest/kong-enterprise/) are only available with a subscription (e.g. Plugin, Developper Portal, etc).
+- The Enterprise licence is required to go on production, [a lot of functionnalities](https://docs.konghq.com/gateway/latest/kong-enterprise/) are only available with a subscription (e.g. Plugins, Developper Portal, etc).
 - Kong can be installed locally but the [pricing page](https://konghq.com/pricing){:target="_blank"} seems to refer to the SASS mode.

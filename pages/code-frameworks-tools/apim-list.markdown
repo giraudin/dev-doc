@@ -294,10 +294,10 @@ page_content_classes: table-container
             <td><a href="https://tyk.io/" target="_blank">Tyk</a></td>
             <td><a href="https://tyk.io/pricing-self-managed/">The pricing policy does not seem to be adapted (to be confirmed)</a></td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td><a href="https://konghq.com/" target="_blank">Kong</a></td>
             <td><a href="https://konghq.com/pricing" target="_blank">Pricing policy: Pay-as-you-go (need to be confirmed, perhaps only for the SASS version)</a></td>
-        </tr>
+        </tr> -->
         <tr>
             <td><a href="https://www.mulesoft.com/platform/api-management" target="_blank">Mulesoft</a></td>
             <td>SASS Only</td>
