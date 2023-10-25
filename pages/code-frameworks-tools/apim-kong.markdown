@@ -32,4 +32,4 @@ The above command will install the gateway (with the manager)  and a Postgres da
 
 ## On-premise installation
 - The Enterprise licence is required to go on production, [a lot of functionnalities](https://docs.konghq.com/gateway/latest/kong-enterprise/) are only available with a subscription (e.g. Plugins, Developper Portal, etc).
-- Kong can be installed locally but the [pricing page](https://konghq.com/pricing){:target="_blank"} seems to refer to the SASS mode.
+- Kong can be installed locally but the [pricing page](https://konghq.com/pricing){:target="_blank"} seems to refer to the SAAS mode.

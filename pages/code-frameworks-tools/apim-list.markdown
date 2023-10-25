@@ -220,6 +220,33 @@ page_content_classes: table-container
               
             </td>
         </tr>
+
+  <tr>
+            <td><a href="https://konghq.com/" target="_blank">Kong</a></td>
+            <td></td>
+            <td><a href="https://www.krakend.io/features/" target="_blank">Limited Community Edition</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><strong class="blue-text">Cons:</strong>
+                <ul> 
+            <li>Too limited CE (missing basic auth & API keys for instance)</li>
+            <li>Pricing unknown need to contact them</li>
+            </ul></td>
+            <td>
+                <ul>
+                    <li><a href="https://www.krakend.io/" target="_blank">www.krakend.io</a></li>
+                    <li><a href="https://github.com/krakend/playground-community" target="_blank">KrakenD Playground</a></li>
+                    <li><a href="https://github.com/krakend/krakend-ce" target="_blank">GitHub repository</a></li>
+                </ul>
+            </td>
+        </tr>
+
+
+
+
+
         <tr>
             <td><a href="https://www.krakend.io" target="_blank">KrakenD</a></td>
             <td></td>
