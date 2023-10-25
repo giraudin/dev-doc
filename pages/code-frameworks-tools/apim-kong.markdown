@@ -7,13 +7,16 @@ permalink: /apim-kong/
 
 ## Resources
 
+- [Kong Homepage](https://konghq.com/){:target="_blank"}
+- [GitHub Project](https://github.com/Kong/kong){:target="_blank"}
+- [Kong documentation](https://docs.konghq.com/){:target="_blank"}
 
 
 ## Installation notes
 * Installation done via the [docker method](https://docs.konghq.com/gateway/3.4.x/get-started/){:target="_blank"}.
 
 <pre>
-curl -Ls https://get.konghq.com/quickstart | bash
+    curl -Ls https://get.konghq.com/quickstart | bash
 </pre>
 
 The above command will install the gateway (with the manager)  and a Postgres database.
