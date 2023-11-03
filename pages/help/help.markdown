@@ -132,6 +132,9 @@ Will be rendered as this Diagram :
       C-->D;
 ```
 
+#### Resources
+- [Cheat sheet](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/){:target="_blank"}
+
 ### Test locally
 The GitHub Pages site is set to be built from the main branch. As it can take some time to be published after a commit (up to 10 minutes), it is convenient to test locally first.
 <pre>
