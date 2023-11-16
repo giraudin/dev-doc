@@ -7,6 +7,8 @@ main_actions_to_take: [
     Make a load test,
 ]
 ---
+
+
 # Notes du RETEX Université Lorraine sur Gravitee
 
 ## Gravitee à 3 briques principales
