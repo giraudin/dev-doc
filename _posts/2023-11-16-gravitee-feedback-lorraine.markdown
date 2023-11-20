@@ -2,7 +2,7 @@
 topic: Feedback of Lorraine University about Gravitee.
 # attendees: Christian Daviau, Julien Gribonvald, Arnaud Deman.
 author: Arnaud Deman
-excerpt: Feedback Gravitee Lorraine University
+excerpt: Feedback from the University of Lorraine on Gravitee
 main_actions_to_take: [
     Make a load test,
 ]
