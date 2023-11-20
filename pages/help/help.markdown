@@ -143,3 +143,31 @@ cd dev-doc
 bundle install
 bundle exec jekyll serve --livereload
 </pre>
+
+### Howto
+#### _blank target VSC snippet:
+Open the command panel and select "Configure User Snippets"
+
+{%  include img.html  
+        src='assets/images/vsc_user_snippets.png'
+        alt='Visual Studio Code - User Snippets'
+        width='50%'
+ %}
+
+Then add this content in the new opened file:
+<pre>
+{
+	"Blank target": {
+	  "prefix": ["_blank", "blank-target"],
+	  "body": ["{:target=\"_blank\"}"],
+	  "description": "Blank target for ghp"
+	}
+}
+</pre>
+
+The snippet should be available: key in the start of the prefix, "_" for instance, then Ctr+Space:
+{%  include img.html  
+        src='assets/images/vsc_user_snippets_use.png'
+        alt='Visual Studio Code - User Snippets use'
+        width='50%'
+ %}
