@@ -5,6 +5,12 @@ permalink: /srv-dev/
 ---
 
 # Introduction
+The development environment is based on [Docker](https://www.docker.com/){:target="_blank"} and [Docker-compose](https://docs.docker.com/compose/){:target="_blank"} to set up the required services (Openldap, CAS, APISIS, etc.)
 
-The development environment sue (Docker)[https://www.docker.com/]{:target="_blank"} (and Docker-compose)[https://docs.docker.com/compose/] to set up the required services (Openldap, CAS, APISIS, etc.)
+Repository: [srv-dev](https://github.com/avenirs-esr/srv-dev){:target="_blank"}.
+
+# Installation
+The installation instructions can be found in the [Readme](https://github.com/avenirs-esr/srv-dev/tree/main#readme){:target="_blank"} of the repository.
+
+
 
