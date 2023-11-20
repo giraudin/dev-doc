@@ -15,6 +15,25 @@ main_actions_to_take: [
 - Facturation / gateway : 
     - facturation prévisible (à la différence d'un systeme de type Pay as You Go).
     - rend difficile la mutualisaton. 
-    - une mise à l'échelle horizontale implique potentiellement un changement de plan.   
+    - une mise à l'échelle horizontale implique potentiellement un changement de plan.  
+- Installable locallement à l'exception de Cockpit (Manager/Dashboard unifié) uniquement en mode SASS     
 - Gravitee offre un support dans le cas des plans payants.
 - La question du choix entre Gravitee et une solution full opensource a été posée mais n'a pas réellement reçu de réponse, en dehors du support.
+
+# Screenshots
+
+ {%  include img.html  
+        src='assets/images/gravitee/gravitee_screenshot1.jpg'
+        alt='Gravitee commercial presentation - screenshot1'
+        width='50%'
+ %}
+ {%  include img.html  
+        src='assets/images/gravitee/gravitee_screenshot2.jpg'
+        alt='Gravitee commercial presentation - screenshot2'
+        width='50%'
+ %}
+ {%  include img.html  
+        src='assets/images/gravitee/gravitee_screenshot3.jpg'
+        alt='Gravitee commercial presentation - screenshot3'
+        width='50%'
+ %}
