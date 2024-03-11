@@ -9,7 +9,7 @@ is_menu_entry: false
 # Contexte, expérimentations et premières orientations
 Le projet s'appuie sur une démarche de co-construction dont les travaux sont en cours. <br/>
 Le cahier des charges ainsi que la modélisation des données ne sont pas encore définis, mais certains besoins sont déjà identifiés : authentification, gestion des API, stockage, indexation, notifications, etc.<br/>
- L'idée est d'effectuer les travaux préparatoires pour être rapidement en ordre de marche lorsque l'équipe de développement sera complétée et les fonctionnalités attendues précisées :
+ L'idée est d'effectuer les travaux préparatoires, par rapport à ce qui est préssenti, pour être rapidement en ordre de marche lorsque l'équipe de développement sera complétée et les fonctionnalités attendues précisées :
 <ul class=spaced>
     <li> <b>Expérimentations autour d'outils :</b> API manager, Brokers.</li>
     <li> <b>Environnement de développement intégré : </b>Mise en œuvre d'un environnement de développement avec un ensemble des services. Ces services sont paramétrés pour dialoguer entre eux. Le déploiement se réalise très facilement sur un serveur de test ou en local pour le développement. De nouveaux services peuvent être ajoutés facilement en fonction des besoins.</li>
@@ -46,7 +46,7 @@ Il est basé sur docker et docker-compose et actuellement, la liste des services
     <li> <b>Reverse proxy/serveur web :</b> Apache. La partie serveur web héberge les pages d'exemples et d'expérimentation.</li>
     <li> <b>API Manager : Apache Apisix, 4 conteneurs :</b> passerelle, dashboard, collecte et visualisation des métriques.</li>
     <li> <b>Broker :</b> Apache Kafka, 3 conteneurs : API, interface utilisateur, paramétrage et coordination distribués.</li>
-    <li> <b>API ePortfolio :</b> version java basée sur Spring Boot, et une version initiale, basée sur NodeJs.</li>
+    <li> <b>API ePortfolio :</b> version java basée sur Spring Boot et NodeJs pour les fonctionnalité asynchrone.</li>
 </ul>
 
 # Architecture
@@ -54,7 +54,7 @@ Les bases de l'architectures ont commencé à être posées. Outre une séparati
 <a href="https://avenirs-esr.github.io/dev-doc/arch-main-modules/" target="_blank">https://avenirs-esr.github.io/dev-doc/arch-main-modules/</a><br/>
 <a href="https://avenirs-esr.github.io/dev-doc/arch-building-blocks-draft/" target="_blank">https://avenirs-esr.github.io/dev-doc/arch-building-blocks-draft/</a>
 <br/><br/>
-Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommendé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
+Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommandé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
 
 # Perspectives 
 
