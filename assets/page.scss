@@ -7,9 +7,12 @@
 
   .page-title {
     font-size: 2em;
-  
     color: $blue-esup;
     margin-right: .5em;
+  }
+
+  h2.subtitle {
+    color: $blue-esup;
   }
   .rss-subscribe-container {
     margin-left: 2em;
@@ -44,6 +47,11 @@
       }
     }
     
+  }
+  ul.spaced {
+    li:not(:first-child) {
+      padding-top: 1em;
+    }
   }
 
 }
