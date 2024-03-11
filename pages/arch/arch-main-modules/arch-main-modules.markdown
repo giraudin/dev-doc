@@ -8,13 +8,13 @@ permalink: /arch-main-modules/
 
 ## Liste des Briques nécessaires pour l'e-portfolio
 
-* Module de gestion des différents types de compétences (APC, autres ?) avec les situations (saés, situation de stage, situation d'apprentissage, etc...) => à voir avec la brique de Caën 
+* Module de gestion des différents types de compétences (APC, autres ?) avec les situations (saés, situation de stage, situation d'apprentissage, etc...) => à voir avec la brique de maquettage de l'offre de formation en APC de U. Caën 
   * Gérer potentiellement plusieurs référentiels (Compétences du XXIè siècle, à s'orienter, APC, etc...)
-  * il faut prévoir un système permettant la correspondance APC avec le référentiel de compétences RNCP  et ROME 4.0, mais également et éventuellement avec les compétences du SCO
-  * il faut prévoir l'usage d'un référentiel générique et globale (terme de Compétence Nationale ?) d'où les universités peuvent partir pour dériver avec des compléments, suppressions et ajouts, ou éventuellement en reprenant les compétences d'une autre université. 
-    1. Pouvoir avoir une vision globale des appropriations faites par les universités pour pouvoir contribuer au modèle générique et global par un admin (au choix)
-    2. Prévoir que les universités puissent contribuer aux référentiels de compétences avec une modération (au choix)
-  * les référentiels de compétences seront hébergés sur un serveur décentralisé afin d'être réutilisés par différents organismes comme nomenclatures. Un intérêt de dériver une compétence et de tracer la compétence d'origine.
+  * Il faut prévoir un système permettant la correspondance APC avec le référentiel de compétences RNCP  et ROME 4.0, mais également et éventuellement avec les compétences du SCO
+  * Il faut prévoir l'usage d'un référentiel générique et globale (terme de Compétence Nationale ?) d'où les universités peuvent partir pour dériver avec des compléments, suppressions et ajouts, ou éventuellement en reprenant les compétences d'une autre université. 
+    * Pouvoir avoir une vision globale des appropriations faites par les universités pour pouvoir contribuer au modèle générique et global par un admin (au choix)
+    * Prévoir que les universités puissent contribuer aux référentiels de compétences avec une modération (au choix)
+  * Les référentiels de compétences seront hébergés sur un serveur décentralisé afin d'être réutilisés par différents organismes comme nomenclatures. Un intérêt de dériver une compétence et de tracer la compétence d'origine.
 * Module d'administration, d'authentification et de gestion de la sécurité => à gérer avec le API-Manager 
   * Gestionnaire d'identité (gestion des identités différentes entre chaque étab / fusion France Connect)
   * Gestion des rôles (lié au profil) pour les droits en gestion globale/par étab
@@ -22,38 +22,40 @@ permalink: /arch-main-modules/
   * Attention il faut gérer plusieurs structures avec des droits globaux à la plateforme (super-admin) et des droits par établissements
   * Cela induit une gestion sur les établissements
 * Module de gestion des traces / d'entrepôt de données 
-  * à tout moment une trace peut être ajoutée, modifiée (complétée, évoluer), supprimée et versionnée
-  * attention si la trace est liée à une compétence évaluée (uniquement dans ce cas ?) il faut une gestion des versions (obligatoire quand évaluée afin de garder un historique du travail évalué, mais peut être à l'initiative de l'utilisateur)
-  * les traces peuvent être diverses et variées, des pièces jointes (médias ou documents) comme des URL, des appels à des services intégrés/intégrables (OpenBadge, test moodle, preuves diverse et variées externes à la plateforme)
-  * prévoir des métadonnées autour des traces car cela peut faire l'objet d'une indexation et de mise à disposition via des plateformes externes (lors d'un transfert des données vers un autre portfolio)
-  * gestion du cycle de vie des traces et leurs versions (nettoyage)
-  * intégration avec le module d'interopérabilité aec les outils pédago (ex: intégration d'une trace d'un LMS)
+  * À tout moment une trace peut être ajoutée, modifiée (complétée, évoluer), supprimée et versionnée
+  * Attention si la trace est liée à une compétence évaluée (uniquement dans ce cas ?) il faut une gestion des versions (obligatoire quand évaluée afin de garder un historique du travail évalué, mais peut être à l'initiative de l'utilisateur)
+  * Les traces peuvent être diverses et variées, des pièces jointes (médias ou documents) comme des URL, des appels à des services intégrés/intégrables (OpenBadge, test moodle, preuves diverse et variées externes à la plateforme)
+  * Prévoir des métadonnées autour des traces car cela peut faire l'objet d'une indexation et de mise à disposition via des plateformes externes (lors d'un transfert des données vers un autre portfolio)
+  * Gestion du cycle de vie des traces et leurs versions (nettoyage)
+  * Intégration avec le module d'interopérabilité aec les outils pédago (ex: intégration d'une trace d'un LMS)
 * Module de collecte des usages / Monitoring de la plateforme => outils du Data Lakehouse 
-  * statistiques des usages
+  * Statistiques des usages
   * xAPI avec les learning **analytics**
-  * monitoring
-  * gestion des log avec monitoring
+  * Monitoring
+  * Gestion des log avec monitoring
   * kafka R ?
 * Module/librairie cœur d'interopérabilité avec les outils pédagogiques / vie étab 
   * LMS via LTI
   * ESUP-Stage
+    * 1er besoin: récupération des liens Tuteur / Étudiant (si possible et intérêt ?)
+    * 2ème besoin: ESUP-Stage a besoin de récupérer les compétences travaillées en APC pour les indiquer dans la convention générée. 
   * POD
-* Module de messaging (feedback/évaluation/mise en relation/évènements/notifications) => cf fregata 
+* Module de messaging (feedback/évaluation/mise en relation/évènements/notifications) => contact avec U. Bordeaux sur le sujet fregate ? 
   * gestion d'évènements (kafka)
   * permettre le dialogue entre étu, enseignants et autres personnes (orientation par exemple), est-ce au travers des feedback uniquement ou lors d'une sollicitation dans un cadre précis du portoflio ?
 * Module Portoflio utilisateur APC, Projet de vie, CV 
   * Fonctionnement APC
   * Travail sur le projet de vie
-  * Travail sur le CV
-  * vues sous forme de cartes mentales
+  * Travail sur le CV, voir l'articulation avec le MCF (Mon Compte de Formation) de la Caisse des Dépôts ou l'Europass qui proposent cette fonctionnalité.
+  * Permettre la vue sous forme de cartes mentales du parcours en APC et autres élements (imbrication des traces dans les travaux réflexifs par exemple)
   * Utilité ? Module de gestion de l'identité/profile avec gestion de permissions sur qui voit quoi, avec exposition potentielle en public via le portfolio de présentation / CV
   * Gestion de template UI, UI qui peuvent évoluer et être à adapter en fonction du contexte utilisateur, d'une personnalisation, donc potentiellement plusieurs contenus/formes de pages en fonction de l'utilisateur, avec des widgets....
 * Page d'accueil 
-  * niveau débutant et avancé (le avancé est quand l'utilisateur ajoute des contenus/briques/widgets)
-  * niveau avancé avec ajout d'un agenda par exemple, l'utilisateur peut customiser son interface
-  * gestion des notifications
-  * accès SAés, compétences, stages, traces
-  * didacticiel, gamification
+  * Gestion d'un affichage niveau débutant et avancé (le niveau avancé est quand l'utilisateur ajoute des contenus/briques/widgets)
+    => Niveau avancé avec ajout d'un agenda par exemple, l'utilisateur peut customiser son interface
+  * Gestion des notifications
+  * Accès SAés, compétences, stages, traces
+  * Didacticiel, gamification
 * Module d'import/export des portfolios, utile pour gérer: 
   * la prise en compte en "import" des données du portfolios du SCO, du monde du travail et de l'europass
   * la récupération des données utilisateurs (RGPD)
