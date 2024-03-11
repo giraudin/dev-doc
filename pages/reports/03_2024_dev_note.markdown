@@ -16,7 +16,7 @@ Le cahier des charges ainsi que la modélisation des données ne sont pas encore
     <li> <b>Authentification et intégration OpenId Connect (OIDC) : </b> l'intégration OIDC a été testée de bout en bout et s'articule entre l'interface utilisateur, l'API manager et l'API ePortfolio qui a été initiée.</li>
     <li> <b>Interface utilisateur :</b> le choix du framework n'est pas encore arrêté mais des travaux ont été réalisés autour des fonctionnalités temps réel, pour les notifications, et des web components pour la réutilisabilité des éléments d'interface utilisateur :  
     <a href="https://github.com/avenirs-esr/authentication-webcomp" target ="_blank">https://github.com/avenirs-esr/authentication-webcomp</a></li>
-    <li> <b>Site développeurs : </b> un site de documentation, essentiellement à destination des développeurs a été mise rédigée, basé sur Github pages. Il contient les notes de synthèse concernant les expérimentations menées et des pistes de réflexion.<br/>
+    <li> <b>Site développeurs : </b> un site de documentation, essentiellement à destination des développeurs a été rédigée, basé sur Github pages. Il contient les notes de synthèse concernant les expérimentations menées et des pistes de réflexion.<br/>
      Il précise également les éléments permettant de fixer un cadre de développement : versionnage, gestion des commits, workflow, etc.<br/>
      <a href="https://avenirs-esr.github.io/dev-doc/" target ="_blank">https://avenirs-esr.github.io/dev-doc/</a>
  </li>
