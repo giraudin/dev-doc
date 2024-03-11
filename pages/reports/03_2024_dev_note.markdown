@@ -37,8 +37,21 @@ Cela  implique des besoins en terme de :
   Les principaux outils du marché on été expérimentés : <a href="https://avenirs-esr.github.io/dev-doc/apim-list/" target="_blank">https://avenirs-esr.github.io/dev-doc/apim-list/</a><br/>Parmis ces outils Gravitee et Apache Apisix se sont démarqués. Des contacts ont été pris avec les commerciaux de ces deux produits et des tests plus poussés ont été réalisés autour de l'intégration OIDC pour l'authentification. Les coûts de licence donnent plutôt l'avantage à Apache Apisix mais une licence éducation est en cours d'élaboration du côté de Gravitee.<br/><br/>
   Les API managers ne sont pas encore courants dans les établissements mais la problématique est identifiée et leur intérêt semble faire consensus. Nous avons pu échanger sur ce sujet avec l'Université de Loraine qui utilise Gravitee pour gérer ses API.
 
-# Environnement de développement 
-L'objectif de ce projet est de constituer un environnement autonome et intégré : <a href="https://github.com/avenirs-esr/srv-dev" target="_blank">https://github.com/avenirs-esr/srv-dev</a> <br/>
+# Architecture - Modules principaux
+Les bases de l'architectures ont commencé à être posées. Outre une séparation classique entre interfaces utilisateurs (frontend) et les APIs (backend), les principaux modules sont identifiés avec un découpage basé sur les grand domaines fonctionnels :<br/>
+
+      {%  include img.html  
+        src="assets/images/building-blocks.svg"
+        alt= "découpage en grands modules"
+      %}
+*Schéma général des principaux modules*
+
+
+<br/><br/>
+Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommandé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
+
+# Environnement de développement / expérimentation architecture technique
+L'objectif de ce projet est de constituer un environnement autonome et intégré et de commencer à travailler sur les bases d'une architecture technique : <a href="https://github.com/avenirs-esr/srv-dev" target="_blank">https://github.com/avenirs-esr/srv-dev</a> <br/>
 Il permet de déployer très rapidement, dans des conteneurs, l'ensemble des services sur un serveur de test ou localement pour les développeurs ou contributeurs. <br/>
 Il est basé sur docker et docker-compose et actuellement, la liste des services déployés est la suivante :
 <ul class="spaced">
@@ -49,12 +62,7 @@ Il est basé sur docker et docker-compose et actuellement, la liste des services
     <li> <b>API ePortfolio :</b> version java basée sur Spring Boot et NodeJs pour les fonctionnalité asynchrone.</li>
 </ul>
 
-# Architecture
-Les bases de l'architectures ont commencé à être posées. Outre une séparation classique entre interfaces utilisateurs (frontend) et les APIs (backend), les principaux modules sont identifiés avec un découpage basé sur les grand domaines fonctionnels :<br/>
-<a href="https://avenirs-esr.github.io/dev-doc/arch-main-modules/" target="_blank">https://avenirs-esr.github.io/dev-doc/arch-main-modules/</a><br/>
-<a href="https://avenirs-esr.github.io/dev-doc/arch-building-blocks-draft/" target="_blank">https://avenirs-esr.github.io/dev-doc/arch-building-blocks-draft/</a>
-<br/><br/>
-Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommandé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
+
 
 # Perspectives 
 
