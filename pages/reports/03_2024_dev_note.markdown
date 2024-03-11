@@ -7,16 +7,16 @@ is_menu_entry: false
 
 
 # Contexte, expérimentations et premières orientations
-Le projet s'appuie sur une démarche de co-constructions dont les travaux sont en cours. <br/>
+Le projet s'appuie sur une démarche de co-construction dont les travaux sont en cours. <br/>
 Le cahier des charges ainsi que la modélisation des données ne sont pas encore définis, mais certains besoins sont déjà identifiés : authentification, gestion des API, stockage, indexation, notifications, etc.<br/>
  L'idée est d'effectuer les travaux préparatoires pour être rapidement en ordre de marche lorsque l'équipe de développement sera complétée et les fonctionnalités attendues précisées :
 <ul class=spaced>
     <li> <b>Expérimentations autour d'outils :</b> API manager, Bokers.</li>
-    <li> <b>Environnement de développement intégré : </b>Mise en œuvre d'un environnement de développement avec un ensemble des services dockerisés. Ces services sont paramétrés pour dialoguer entre eux. Le déploiement se réalise très facilement sur un seveur de test ou en local pour le développement. De nouveaux services peuvent être ajoutés facilement en fonction des besoins.</li>
-    <li> <b>Authentification et l'intégration OpenId Connect : </b> l'intégration OIDC a été testée de bout en bout et articule entre l'interface utilisateur, l'API manager et l'API ePortfolio qui a été initiée.</li>
+    <li> <b>Environnement de développement intégré : </b>Mise en œuvre d'un environnement de développement avec un ensemble des services. Ces services sont paramétrés pour dialoguer entre eux. Le déploiement se réalise très facilement sur un seveur de test ou en local pour le développement. De nouveaux services peuvent être ajoutés facilement en fonction des besoins.</li>
+    <li> <b>Authentification et intégration OpenId Connect : </b> l'intégration OIDC a été testée de bout en bout et s'articule entre l'interface utilisateur, l'API manager et l'API ePortfolio qui a été initiée.</li>
     <li> <b>Interface utilisateur :</b> le choix du framework n'est pas encore arrêté mais des travaux ont été réalisés autour des fonctionnalités temps réel, pour les notifications, et des web components pour la réutilisabilité des éléments d'interface utilisateur :  
     <a href="https://github.com/avenirs-esr/authentication-webcomp" target ="_blank">https://github.com/avenirs-esr/authentication-webcomp</a></li>
-    <li> <b>Site développeurs : </b> un site de documentation essentiellement a destionation des developpeurs a développé, basé sur Github pages. Il contient les notes de synthèse concernant les éxpérimentations menée et des pistes de réflexion.<br/>
+    <li> <b>Site développeurs : </b> un site de documentation, essentiellement à destination des developpeurs a été développé, basé sur Github pages. Il contient les notes de synthèse concernant les éxpérimentations menée et des pistes de réflexion.<br/>
      Il précise également les éléments permettant de fixer un cadre de développement : versionnage, gestion des commits, workflow, etc.<br/>
      <a href="https://avenirs-esr.github.io/dev-doc/" target ="_blank">https://avenirs-esr.github.io/dev-doc/</a>
  </li>
@@ -64,7 +64,7 @@ Parmis la listes de travaux à mener ou initier à court terme un certain nombre
 
 <li><b>Stockage/ indexation / cyle de vie des données :</b> le stockage des traces, leur exploitation et conservation représentent un point central en termes fonctionnel et complexe d'un point de vue technique avec des contraintes liées au volume de données. Une modélisation, même partielle des objets manipulés est nécessaire pour pouvoir initier les travaux de ce module.</li>
 
-<li><b>Log / Monitoring / collecte des usages : </b> c'est également un point essentiel, en terme d'exploitation, afin de garantir un fonctionnement nominal de la plateforme. Il s'agit d'u module transversal à intégrer u développement des autres modules.</li>
+<li><b>Log / Monitoring / collecte des usages : </b> c'est également un point essentiel, en terme d'exploitation, afin de garantir un fonctionnement nominal de la plateforme. Il s'agit d'u module transversal à intégrer au développement des autres modules.</li>
 </ul>
 
 
