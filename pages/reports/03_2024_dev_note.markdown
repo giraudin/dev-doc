@@ -11,12 +11,12 @@ Le projet s'appuie sur une démarche de co-construction dont les travaux sont en
 Le cahier des charges ainsi que la modélisation des données ne sont pas encore définis, mais certains besoins sont déjà identifiés : authentification, gestion des API, stockage, indexation, notifications, etc.<br/>
  L'idée est d'effectuer les travaux préparatoires pour être rapidement en ordre de marche lorsque l'équipe de développement sera complétée et les fonctionnalités attendues précisées :
 <ul class=spaced>
-    <li> <b>Expérimentations autour d'outils :</b> API manager, Bokers.</li>
-    <li> <b>Environnement de développement intégré : </b>Mise en œuvre d'un environnement de développement avec un ensemble des services. Ces services sont paramétrés pour dialoguer entre eux. Le déploiement se réalise très facilement sur un seveur de test ou en local pour le développement. De nouveaux services peuvent être ajoutés facilement en fonction des besoins.</li>
-    <li> <b>Authentification et intégration OpenId Connect : </b> l'intégration OIDC a été testée de bout en bout et s'articule entre l'interface utilisateur, l'API manager et l'API ePortfolio qui a été initiée.</li>
+    <li> <b>Expérimentations autour d'outils :</b> API manager, Brokers.</li>
+    <li> <b>Environnement de développement intégré : </b>Mise en œuvre d'un environnement de développement avec un ensemble des services. Ces services sont paramétrés pour dialoguer entre eux. Le déploiement se réalise très facilement sur un serveur de test ou en local pour le développement. De nouveaux services peuvent être ajoutés facilement en fonction des besoins.</li>
+    <li> <b>Authentification et intégration OpenId Connect (OIDC) : </b> l'intégration OIDC a été testée de bout en bout et s'articule entre l'interface utilisateur, l'API manager et l'API ePortfolio qui a été initiée.</li>
     <li> <b>Interface utilisateur :</b> le choix du framework n'est pas encore arrêté mais des travaux ont été réalisés autour des fonctionnalités temps réel, pour les notifications, et des web components pour la réutilisabilité des éléments d'interface utilisateur :  
     <a href="https://github.com/avenirs-esr/authentication-webcomp" target ="_blank">https://github.com/avenirs-esr/authentication-webcomp</a></li>
-    <li> <b>Site développeurs : </b> un site de documentation, essentiellement à destination des developpeurs a été développé, basé sur Github pages. Il contient les notes de synthèse concernant les éxpérimentations menée et des pistes de réflexion.<br/>
+    <li> <b>Site développeurs : </b> un site de documentation, essentiellement à destination des développeurs a été mise rédigée, basé sur Github pages. Il contient les notes de synthèse concernant les expérimentations menées et des pistes de réflexion.<br/>
      Il précise également les éléments permettant de fixer un cadre de développement : versionnage, gestion des commits, workflow, etc.<br/>
      <a href="https://avenirs-esr.github.io/dev-doc/" target ="_blank">https://avenirs-esr.github.io/dev-doc/</a>
  </li>
@@ -26,16 +26,16 @@ Le cahier des charges ainsi que la modélisation des données ne sont pas encore
     </ul>  
 
 # Prospection autour des API managers 
-L'interropérabilité et au c&oelig;ur du projet Avenirs ePortfolio. La mise a disposition et les interactions avec des API sont donc un élément central. <br/><br/>
+L'interropérabilité est au c&oelig;ur du projet Avenirs ePortfolio. La mise à disposition et les interactions avec des API sont donc un élément central. <br/><br/>
 Cela  implique des besoins en terme de :
  - Gestion du trafic.
  - Monitoring, alertes.
- - Autorisation/Authentification, sécurisation des web services.
- - Gestion des déploiements, par exemple avec une stratégie de canary release qui permet de tester les nouvelles fonctionnalités sur une population restreinte.
+ - Autorisation/authentification, sécurisation des web services.
+ - Gestion des déploiements, par exemple avec une stratégie de canary release, qui permet de tester les nouvelles fonctionnalités sur une population restreinte.
  
   Pour traiter ces problématiques, une possibilité est d'utiliser un logiciel spécialisé : un API manager.  les API managers s'interfacent en amont des API développées et apportent les fonctionalité nécessaires au traitement de flux entrants ou sortants. <br/>
   Les principaux outils du marché on été expérimentés : <a href="https://avenirs-esr.github.io/dev-doc/apim-list/" target="_blank">https://avenirs-esr.github.io/dev-doc/apim-list/</a><br/>Parmis ces outils Gravitee et Apache Apisix se sont démarqués. Des contacts ont été pris avec les commerciaux de ces deux produits et des tests plus poussés ont été réalisés autour de l'intégration OIDC pour l'authentification. Les coûts de licence donnent plutôt l'avantage à Apache Apisix mais une licence éducation est en cours d'élaboration du côté de Gravitee.<br/><br/>
-  Les API manager ne sont pas encore courants dans les établissements mais la problématique est identifiée et leur intérêt semble faire consensus. Nous avons pu échanger sur ce sujet avec l'Université de Loraine qui utilise Gravitee pour gérer ses API.
+  Les API managers ne sont pas encore courants dans les établissements mais la problématique est identifiée et leur intérêt semble faire consensus. Nous avons pu échanger sur ce sujet avec l'Université de Loraine qui utilise Gravitee pour gérer ses API.
 
 # Environnement de développement 
 L'objectif de ce projet est de constituer un environnement autonome et intégré : <a href="https://github.com/avenirs-esr/srv-dev" target="_blank">https://github.com/avenirs-esr/srv-dev</a> <br/>
@@ -54,11 +54,11 @@ Les bases de l'architectures ont commencé à être posées. Outre une séparati
 <a href="https://avenirs-esr.github.io/dev-doc/arch-main-modules/" target="_blank">https://avenirs-esr.github.io/dev-doc/arch-main-modules/</a><br/>
 <a href="https://avenirs-esr.github.io/dev-doc/arch-building-blocks-draft/" target="_blank">https://avenirs-esr.github.io/dev-doc/arch-building-blocks-draft/</a>
 <br/><br/>
-Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommendé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
+Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommendé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
 
 # Perspectives 
 
-Parmis la listes de travaux à mener ou initier à court terme un certain nombre de points ressortent prioritairement :
+Parmi la listes de travaux à mener ou initier à court terme un certain nombre de points ressortent prioritairement :
 <ul class="spaced">
 <li><b>Interfaces utilisateurs :</b>Commencer à définir les interfaces utilisateur, éventuellement en mode fil de fer, la cinématique et les cas d'usage. L'ergonomie, l'accessiblité, et d'un manière générale l'expérience utilisateur sont des élements essentiels et doivent être pris en compte le plus tôt possible dans la vie du projet. Cela permettrait également de commencer à travailler sur la notion de rôles utilisateurs.</li>
 
