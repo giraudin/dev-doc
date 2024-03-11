@@ -38,17 +38,17 @@ Cela  implique des besoins en terme de :
   Les API managers ne sont pas encore courants dans les établissements mais la problématique est identifiée et leur intérêt semble faire consensus. Nous avons pu échanger sur ce sujet avec l'Université de Loraine qui utilise Gravitee pour gérer ses API.
 
 # Architecture - Modules principaux
-Les bases de l'architectures ont commencé à être posées. Outre une séparation classique entre interfaces utilisateurs (frontend) et les APIs (backend), les principaux modules sont identifiés avec un découpage basé sur les grand domaines fonctionnels :<br/>
+Les bases de l'architectures ont commencé à être posées. Outre une séparation classique entre interfaces utilisateurs (frontend) et les APIs (backend), les principaux modules sont identifiés avec un découpage basé sur les grand domaines fonctionnels.
+Nous avons pu également échanger avec l'équipe technique PC-scol qui nous a recommandé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. <br/><br/>
 
       {%  include img.html  
         src="assets/images/building-blocks.svg"
         alt= "découpage en grands modules"
       %}
-*Schéma général des principaux modules*
+*Schéma général des principaux modules*<br/><br/>
 
 
-<br/><br/>
-Nous avons pu échanger avec l'équipe technique PC-scol qui nous a recommandé de privilégier une architecture simple. Ils nous ont déconseillé de mettre en place une architecture de type micro-services car cela complexifie considérablement les traitements en introduisant des problématiques de synchronisation de données. 
+
 
 # Environnement de développement / expérimentation architecture technique
 L'objectif de ce projet est de constituer un environnement autonome et intégré et de commencer à travailler sur les bases d'une architecture technique : <a href="https://github.com/avenirs-esr/srv-dev" target="_blank">https://github.com/avenirs-esr/srv-dev</a> <br/>
