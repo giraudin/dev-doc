@@ -62,6 +62,13 @@ Il est basé sur docker et docker-compose et actuellement, la liste des services
     <li> <b>API ePortfolio :</b> version java basée sur Spring Boot et NodeJs pour les fonctionnalité asynchrone.</li>
 </ul>
 
+{%  include img.html  
+        src="assets/images/arch.svg"
+        alt= "architecture technique"
+      %}
+*Schéma général des principaux modules*<br/><br/>
+
+
 
 
 # Perspectives 
