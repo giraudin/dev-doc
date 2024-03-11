@@ -66,7 +66,7 @@ Il est basé sur docker et docker-compose et actuellement, la liste des services
         src="assets/images/arch.svg"
         alt= "architecture technique"
       %}
-*Schéma général des principaux modules*<br/><br/>
+*Expérimentation d'une architecture technique*<br/><br/>
 
 
 
