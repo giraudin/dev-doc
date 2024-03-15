@@ -16,7 +16,14 @@
   {%- endif -%}
 </div>
 {%- else -%}
-<a class="report-summary"  href="{{ include.report.url | relative_url }}">
+  {% assign url =  include.report.url | relative_url %}
+  {% assign target =  '' %}
+  {% if include.report.external-url %}
+    {% assign url =  include.report.external-url  %}
+    {% assign target =  "_blank"  %}
+  {%- endif -%}
+
+<a class="report-summary"  href="{{ url}}" target="{{target}}">
   <div class="bullet">&bull;</div>
   <div class="report-date">{{ include.report.date | date: include.date_format }}</div>
   <div class="report-link">
