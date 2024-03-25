@@ -14,3 +14,9 @@ esup_url: https://www.esup-portail.org/
 rss_logo: assets/images/rss.svg
 rss_logo_alt: Subscribe to rss feed
 rss_url: /dev-doc/feed.xml
+anr_logo_medium: assets/images/ANR-logo-2021-blanc-sigle-300x146.png
+anr_logo_small: assets/images/ANR-logo-2021-blanc-sigle-80x39.png
+anr_logo_alt: ANR logo - black and white
+anr_logotype_medium: assets/images/Logotype-blanc.png
+anr_logotype_small: assets/images/Logotype-blanc-small.png
+anr_logotype_alt: ANR logotype white
