@@ -1,10 +1,13 @@
 <footer class="site-footer">
 
   <div class="main-container">
-    
+
     <div class="inner-container">
 
       <div class="col left row-direction">
+      </div>
+
+      <div class="col center row-direction maximize">
 
         {% include img.html
         src=site.data.constants.avenir_esr_logo_small
@@ -16,15 +19,55 @@
         src=site.data.constants.esup_logo_small
         alt=site.data.constants.esup_logo_alt
         url=site.data.constants.esup_url
+        height=site.data.constants.footer_logo_height
         %}
 
-      </div>
+        {% include img.html
+        src=site.data.constants.usmb_logo_small
+        alt=site.data.constants.usmb_logo_alt
+        url=site.data.constants.usmb_url
+        height=site.data.constants.footer_logo_height
+        %}
 
-      <div class="col center ">
-        {%- include social.html -%}
+        {% include img.html
+        src=site.data.constants.u_lille_logo_small
+        alt=site.data.constants.u_lille_logo_alt
+        url=site.data.constants.u_lille_url
+        height=site.data.constants.footer_logo_height
+        %}
+
+        {% include img.html
+        src=site.data.constants.ubo_logo_small
+        alt=site.data.constants.ubo_logo_alt
+        url=site.data.constants.ubo_url
+        %}
+
+        {% include img.html
+        src=site.data.constants.polytech_logo_small
+        alt=site.data.constants.polytech_logo_alt
+        url=site.data.constants.polytech_url
+        %}
+
+        {% include img.html
+        src=site.data.constants.amu_logo_small
+        alt=site.data.constants.amu_logo_alt
+        url=site.data.constants.amu_url
+        height=site.data.constants.footer_logo_height
+        %}
+
+
+        {% include img.html
+        src=site.data.constants.utln_logo_small
+        alt=site.data.constants.utln_logo_alt
+        url=site.data.constants.utln_url
+        %}
+
+      
+        <!-- {%- include social.html -%} -->
       </div>
 
       <div class="col right">
+        {%- include social.html -%}
         {%- if site.description != 'disabled' -%}
         <p>{{ site.description | escape }}</p>
         {%- endif -%}
@@ -32,16 +75,17 @@
     </div>
     <div class="anr-container">
       {% include img.html
-        src=site.data.constants.anr_logo_small
-        alt=site.data.constants.anr_logo_alt
-        %}
+      src=site.data.constants.anr_logo_small
+      alt=site.data.constants.anr_logo_alt
+      %}
       {% include img.html
-        src=site.data.constants.anr_logotype_small
-        alt=site.data.constants.anr_logotype_alt
-        %}
-        <div class="anr-text">
-          Ce travail a bénéficié d'une aide de l’État gérée par l'Agence Nationale de la Recherche au titre du programme d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-DMAV-0001
-        </div>
+      src=site.data.constants.anr_logotype_small
+      alt=site.data.constants.anr_logotype_alt
+      %}
+      <div class="anr-text">
+        Ce travail a bénéficié d'une aide de l’État gérée par l'Agence Nationale de la Recherche au titre du programme
+        d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-DMAV-0001
+      </div>
     </div>
   </div>
 

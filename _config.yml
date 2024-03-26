@@ -20,15 +20,16 @@
 
 title: ePortFolio ESR
 
-email: your-email@example.com
+email: arnaud.deman@univ-tln.fr
 # value "disabled" wil hide the site description in the footer.
 description: disabled
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Documentation for developers and contributers
 baseurl: "/dev-doc/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: EsupPortail
+#twitter_username: EsupPortail
 github_username:  avenirs-esr
+linkedin_company: avenirs-esr
 show_excerpts: true
 use_mermaid: true
 mermaid_cdn: https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js

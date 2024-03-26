@@ -1,5 +1,6 @@
 favicon: /assets/images/favicon.ico
 subtitle: Developer Documentation
+footer_logo_height: 40px
 avenir_logo_medium: assets/images/avenir-logo_medium.png
 avenir_logo_small: assets/images/avenir-logo_small.png
 avenir_logo_alt: Avenir(s) Logo
@@ -15,8 +16,32 @@ rss_logo: assets/images/rss.svg
 rss_logo_alt: Subscribe to rss feed
 rss_url: /dev-doc/feed.xml
 anr_logo_medium: assets/images/ANR-logo-2021-blanc-sigle-300x146.png
-anr_logo_small: assets/images/ANR-logo-2021-blanc-sigle-80x39.png
+anr_logo_small: assets/images/ANR-logo-2021-blanc-sigle-small.png
 anr_logo_alt: ANR logo - black and white
 anr_logotype_medium: assets/images/Logotype-blanc.png
 anr_logotype_small: assets/images/Logotype-blanc-small.png
 anr_logotype_alt: ANR logotype white
+
+usmb_logo_small: assets/images/logo-usmb.svg
+usmb_logo_alt: Logo USMB
+usmb_url: https://www.univ-smb.fr
+
+u_lille_logo_small: assets/images/ULille-nb.svg
+u_lille_logo_alt: Logo Université de Lille
+u_lille_url: https://www.univ-lille.fr
+
+ubo_logo_small: assets/images/universite-de-bretagne-occidentale-ubo-97x40.png
+ubo_logo_alt: Logo Université de Bretagne Occidentale
+ubo_url: https://www.univ-brest.fr
+
+polytech_logo_small: assets/images/logo_reseau_Polytech-63x40.png
+polytech_logo_alt: Logo Réseau Polytech
+polytech_url: https://www.polytech-reseau.org/
+
+amu_logo_small: assets/images/DIRCOM-Logo_AMU_CMJN.svg
+amu_logo_alt: Logo Aix-Marseille Université
+amu_url: https://www.univ-amu.fr
+
+utln_logo_small: assets/images/logo-utln-154x40.png
+utln_logo_alt: Logo Université de Toulon
+utln_url: https://www.univ-tln.fr

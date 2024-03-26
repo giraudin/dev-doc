@@ -10,7 +10,7 @@
     flex-grow: 1;
     flex-direction: column;
     .anr-container {
-      background-color: black;
+      background-color: $grey-d;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -18,7 +18,7 @@
 
       .anr-text {
         color: white;
-        max-width: 30%;
+        //max-width: 50%;
       }
     }
     .inner-container {
@@ -32,7 +32,12 @@
       .social-media-list {
         list-style: none;
         margin-left: 0;
+        li:not(:first-child){
+          padding-top: .2em;
+        }
+        
       }
+      
       .col {
         display: flex;
         // flex-grow: 1;
@@ -42,9 +47,14 @@
         &:not(.row-direction) {
           // flex-direction: row;
           flex-direction: column;
-          :not(:first-child) {
-            margin-top: 0.5em;
-          }
+          // :not(:first-child) {
+          //   margin-top: 0.5em;
+          // }
+        }
+
+        &.maximize {
+          flex-grow: 1;
+          justify-content: space-around;
         }
 
         &.row-direction {
