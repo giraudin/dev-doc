@@ -1,6 +1,6 @@
 ---
 topic: Start of work
-attendees: Christian Daviau, Julien Gribonvald, Arnaud Deman.
+attendees: Christian Daviau (Recia), Julien Gribonvald (Recia), Arnaud Deman (Toulon Univ.).
 author: Arnaud Deman
 excerpt: First meeting for the arrival of A. Deman (sample)
 sections: 

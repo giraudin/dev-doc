@@ -1,6 +1,6 @@
 ---
 topic: Gravitee commercial contact.
-attendees: Julien Gribonvald, Arnaud Deman, Jean-Batiste Quentin - Gravitee, Chargé de comptes, fonction publique/univzersité.
+attendees: Julien Gribonvald (Recia), Arnaud Deman (Recia), Jean-Batiste Quentin  (Gravitee, Chargé de comptes, fonction publique/université).
 author: Arnaud Deman
 excerpt: Commercial contact
 main_actions_to_take: [
