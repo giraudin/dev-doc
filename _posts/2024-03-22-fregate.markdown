@@ -1,0 +1,15 @@
+---
+topic: exchange with U. Bordeaux about Fregate (notifications).
+attendees: Julien Gribonvald (Recia), Arnaud Deman (Toulon U.), Karen Raynal (Bordeaux U.), Pierre Bouvret (Bordeaux U.)
+author: Arnaud Deman
+excerpt:  Exchange with Bordeaux University about Fregate.
+main_actions_to_take: [
+    Bordeaux should give us Docker compose files and Avro schema
+]
+---
+<br/><br/>
+
+# Notes
+- No websocket only push notifications.
+- push notification cannot be used for system action (specification).
+- Connectors for ADE and Moodle.
