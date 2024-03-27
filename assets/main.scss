@@ -32,7 +32,16 @@ figure {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { 
+    margin-bottom: 15px; 
+
+}
+h2 {
+    &:not(:first-child){
+        margin-top: 1em;
+    }
+}
+
 
 
 
@@ -45,7 +54,7 @@ html {
         height: 100%;
         flex-direction: column;
         font-family: Helvetica, Arial, sans-serif;
-
+        
         ul {
             padding: 0.5em 0 0 2em;
         }
@@ -103,5 +112,11 @@ html {
                 }
             }
         }
+        figcaption {
+            color:$grey-d;
+            font-size: .8em;
+            font-style: italic;
+        }
+        
     }
-}
+    }
