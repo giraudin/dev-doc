@@ -23,6 +23,8 @@ There are several available strategies for different scenarios: [comparison of d
 
 
 ### Key points for the first experimentations
+- Synchrone replication
+- Minimal risk of data loss
 - Service level replication: no Shared Disk Failover but File System Replication (see [DRDB](https://fr.wikipedia.org/wiki/DRBD){:target="_blank"}) could be used as a failover solution but not for replication.
 - Keep as simple as possible : replication of the entire database, no data partitioning (i.e.: tables splitted into set)  and consequently no Parallel Query Execution.
 - No risk of data loss: discard Trigger-Based Primary-Standby Replication as according to the documentation "there is possible data loss during fail over".
