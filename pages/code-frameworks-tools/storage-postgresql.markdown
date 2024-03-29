@@ -6,9 +6,11 @@ permalink: /storage-posgresql/
 
 ## Resources
 - [https://www.postgresql.org/docs/current/](https://www.postgresql.org/docs/current/){:target="_blank"}
+- [WAL Introduction](https://www.postgresql.org/docs/current/wal-intro.html){:target="_blank"}
 - [https://github.com/zalando/spilo](https://github.com/zalando/spilo){:target="_blank"}
 - [https://github.com/zalando/patroni](https://github.com/zalando/patroni){:target="_blank"}
 - [https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling](https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling){:target="_blank"}
+- [https://hub.docker.com/_/postgres/](https://hub.docker.com/_/postgres/){:target="_blank"}
 
 
 ## Objective
@@ -38,6 +40,7 @@ Two implementations: [Log-Shipping](https://www.postgresql.org/docs/current/warm
 
 
 #### Streaming replication
+- Principle: [WALL](https://www.postgresql.org/docs/current/wal-intro.html){:target="_blank"} replication
 - Small delay (smaller than with log-shipping)
 - archive_timout not required (data loss window)
 - **wal_keep_size** this has to be set carrefully (large enough): **if WAL segment are recycled to quickly, the standby server has to be reinitialized.**
