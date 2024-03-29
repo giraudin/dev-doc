@@ -10,7 +10,7 @@ permalink: /storage-posgresql/
 - [https://github.com/zalando/spilo](https://github.com/zalando/spilo){:target="_blank"}
 - [https://github.com/zalando/patroni](https://github.com/zalando/patroni){:target="_blank"}
 - [https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling](https://wiki.postgresql.org/wiki/Replication,_Clustering,_and_Connection_Pooling){:target="_blank"}
-- [https://hub.docker.com/_/postgres/](https://hub.docker.com/_/postgres/){:target="_blank"}
+- [https://hub.docker.com/postgres](https://hub.docker.com/_/postgres/){:target="_blank"}
 
 
 ## Objective
