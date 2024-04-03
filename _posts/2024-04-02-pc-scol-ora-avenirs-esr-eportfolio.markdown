@@ -16,9 +16,9 @@ main_actions_to_take: [
 # Notes
 - ODJ prévisionnel du 22/23 : 
     - une matinée sur les objets et notions APC, 
-    - une matinée plus opérationnelle sur les echanges de flux, contrat de service, etc. Farazine fait remarquer qu'il serait bon également de préciser les périmères des différents outils.
+    - une matinée plus opérationnelle sur les echanges de flux, contrats de service, etc. Farazine fait remarquer qu'il serait bon également de préciser les périmètres des différents outils.
 
-- Le travail de modélisation de Caen vise à replacer l'évaluation tout au long du processus et non uniqument à la fin. Difficulté : cette modification a un fort impacte la modélisation initiale.
+- Le travail de modélisation de Caen vise à replacer l'évaluation tout au long du processus et non uniqument à la fin. Difficulté : cette modification a un fort impact la modélisation initiale.
 
-- Modification a apporter: raccorcher les niveaux (à raccrocher aux compétences ?)
+- Modification à apporter: raccorcher les niveaux (à raccrocher aux compétences ?)
 
