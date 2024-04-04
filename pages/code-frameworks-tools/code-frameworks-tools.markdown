@@ -30,7 +30,7 @@ This allow to automate the SemVer management :
     Breaking change -> major
 
 ### Commitlint & husky
-In order to facilitate the commit in command line, [commitlint](https://github.com/conventional-changelog/commitlint){:target="_blank"} can be used in conjunction to [husky](https://typicode.github.io/husky/){:target="_blank"} (client side git hooks).    
+In order to facilitate the commit with command line, [commitlint](https://github.com/conventional-changelog/commitlint){:target="_blank"} can be used in conjunction to [husky](https://typicode.github.io/husky/){:target="_blank"} (client side git hooks).    
 
 ## API 
 
