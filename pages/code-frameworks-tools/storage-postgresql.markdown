@@ -64,4 +64,4 @@ Two implementations: [Log-Shipping](https://www.postgresql.org/docs/current/warm
 - The archive directory is a docker volume mounted on the primary and secondaries.
 - The modfied postgresql.conf and pg_hba.conf (Primary & Secondaries - step 3) are mounted via docker.
 - The sql initialization of the primary is executed via a docker entry point (Primary - step 1).
-- The data base initialization  and the creation of standby.signal is handled in the docker command of the service.
+- For the secondaries, the data base initialization  and the creation of standby.signal is handled in the docker command of the service.
