@@ -47,3 +47,21 @@ Two implementations: [Log-Shipping](https://www.postgresql.org/docs/current/warm
 - archive_timout not required (data loss window)
 - **wal_keep_size** this has to be set carrefully (large enough): **if WAL segment are recycled to quickly, the standby server has to be reinitialized.**
 
+
+### Implementation steps 
+#### Primary
+1. Creates a postgresql replication user and allow connection to replication database from secondaries.
+2. Creates (replication slots)[https://www.postgresql.org/docs/current/warm-standby.html#STREAMING-REPLICATION-SLOTS]{:target="_blank"} for each secondary.
+3. Activate the (continuous archieving)[https://www.postgresql.org/docs/current/continuous-archiving.html]{:target="_blank"}. NB.: the folder where the WAL files are copied must not be hosted on the primary.
+
+#### Secondaries
+1. Restore each secondary from a primary (backup)[https://www.postgresql.org/docs/current/continuous-archiving.html#BACKUP-PITR-RECOVERY]{:target="_blank"}
+2. Create a file called **standby.signal** in the data dierctory of each secondary.
+3. Modify the file postgresql.conf of each secondary to set the connextion info to the primary and the copy command (for WAL restoring)
+
+
+#### Docker implementation
+- The archive directory is a docker volume mounted on the primary and secondaries.
+- The modfied postgresql.conf and pg_hba.conf (Primary & Secondaries - step 3) are mounted via docker.
+- The sql initialization of the primary is executed via a docker entry point (Primary - step 1).
+- For the secondaries, the data base initialization  and the creation of standby.signal is handled in the docker command of the service.
