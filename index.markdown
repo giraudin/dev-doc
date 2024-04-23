@@ -26,7 +26,7 @@ The aim of this site is to bring together and share all the information relating
 
 
 
-### Main Milestones (sample)
+<!-- ### Main Milestones (sample)
 
 ```mermaid
 gantt
@@ -54,5 +54,5 @@ gantt
      First Release          :milestone, crit, frl, 2024-10-01, 1d
    
        
-```
+``` -->
 
