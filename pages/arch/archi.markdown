@@ -8,5 +8,5 @@ order: 20
 ---
 
 - [Architecture - Main modules](../arch-main-modules/)
-- [Architecture - Building blocks  (Draft)](../arch-building-blocks-draft/)
+- [Architecture - Components](../arch-components/)
 - [Development Environment](../srv-dev/)
