@@ -11,10 +11,10 @@ Repository: [srv-dev](https://github.com/avenirs-esr/srv-dev){:target="_blank"}.
 
 ## Architecture
  {% include img.html
-        src="assets/images/arch.svg"
-        alt="Building blocs"
+        src="assets/images/docker-containers.png"
+        alt="Dockers containers"
         width="800px"
-        caption="Expérimentation d'une architecture technique"
+        caption="Architecture: containers and services"
     %}
 
 ## Installation
