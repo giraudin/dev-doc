@@ -51,13 +51,13 @@ permalink: /arch-main-modules/
 * Module Portoflio utilisateur APC, Projet de vie, CV 
   * Fonctionnement APC
   * Travail sur le projet de vie
-  * Travail sur le CV, voir l'articulation avec le MCF (Mon Compte de Formation) de la Caisse des Dépôts ou l'Europass qui proposent cette fonctionnalité.
+  * Travail sur le CV, voir l'articulation avec le Passeport de compétences du CPF (Compte Personnel Formation) de la Caisse des Dépôts ou l'Europass qui proposent cette fonctionnalité.
   * Permettre la vue sous forme de cartes mentales du parcours en APC et autres élements (imbrication des traces dans les travaux réflexifs par exemple)
   * Utilité ? Module de gestion de l'identité/profile avec gestion de permissions sur qui voit quoi, avec exposition potentielle en public via le portfolio de présentation / CV
   * Gestion de template UI, UI qui peuvent évoluer et être à adapter en fonction du contexte utilisateur, d'une personnalisation, donc potentiellement plusieurs contenus/formes de pages en fonction de l'utilisateur, avec des widgets....
 * Page d'accueil 
   * Gestion d'un affichage niveau débutant et avancé (le niveau avancé est quand l'utilisateur ajoute des contenus/briques/widgets)\
-    => Niveau avancé avec ajout d'un agenda par exemple, l'utilisateur peut customiser son interface
+    => Niveau avancé avec ajout d'un agenda par exemple, ou de widgets liés aux rubriques thématiques comme par exemple un affichage rapide des niveaux atteints dans les compétences visées par la formation, et l'utilisateur peut customiser son interface
   * Gestion des notifications
   * Accès SAés, compétences, stages, traces
   * Didacticiel, gamification
@@ -76,7 +76,7 @@ permalink: /arch-main-modules/
 * Assistance
 
 
-## Fonctionnement avec le SCO
+## Fonctionnement avec le portfolio du volet SCOLAIRE du programme AVENIR(s)
 
 Tentative de centralisation des datas au format json sur un data-lake, le portfolio utiliserait et pousserait les infos dans ce système. PB qui se pose est que les données appartiennent aux univ, donc seulement certaines parties seront mises en commun, mais les données utilisateurs seront uniquement à l'initiative de l'utilisateur.
 
